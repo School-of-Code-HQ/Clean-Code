@@ -2387,9 +2387,9 @@ This is also available in other languages:
 
 
 
-## EXTRA NOTES TO ADD
+# Styling and Formatting Guide
 
-# School of Code JavaScript Style Guide
+<img src="images/soclogo.png"  width="150" height="150"> 
 
 ## Table of Content
 1. Naming Conventions
@@ -2403,16 +2403,4 @@ Always write meaningful and descriptive names for variables and functions.
 - Use lengthy names if necessary
 - Variables and functions are written in camelCase
 
-
-## ADDITIONAL NOTES FROM CHRIS
-Indentation and Spacing
-  - More obvious examples (more spacing)
-  - WHY IT HELPS: 
-    - helps us Skim code and see what is going to run
-    - Code will run without spacings. Its used for us and other developers
-  
-Brackets and Colons
-    - SHOW CODE BLOCk - with all brackets and notation (SNAPIFY - no password in lastPass!?)
-  
-  COMMENTS
-    - Useful for learning but in idndustry well written code should need no comments 
+![naming](images/naming.png)

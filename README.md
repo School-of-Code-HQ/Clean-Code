@@ -2384,3 +2384,35 @@ This is also available in other languages:
 
 **[⬆ back to top](#table-of-contents)**
 
+
+
+
+## EXTRA NOTES TO ADD
+
+# School of Code JavaScript Style Guide
+
+## Table of Content
+1. Naming Conventions
+2. Indentation & Spacing
+3. Brackets
+4. Comments
+5. eg using prettier….
+
+## Naming Conventions
+Always write meaningful and descriptive names for variables and functions.
+- Use lengthy names if necessary
+- Variables and functions are written in camelCase
+
+
+## ADDITIONAL NOTES FROM CHRIS
+Indentation and Spacing
+  - More obvious examples (more spacing)
+  - WHY IT HELPS: 
+    - helps us Skim code and see what is going to run
+    - Code will run without spacings. Its used for us and other developers
+  
+Brackets and Colons
+    - SHOW CODE BLOCk - with all brackets and notation (SNAPIFY - no password in lastPass!?)
+  
+  COMMENTS
+    - Useful for learning but in idndustry well written code should need no comments 

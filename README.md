@@ -240,11 +240,11 @@ Also functions of the same level should alwasys start on the same line and keep 
 
 **Bad Indentation:**
 
-![variable_not_on_line](images/badAddition.png)
+![variable_not_on_line](images/adIndentation%20funtion.png)
 
 **Good Indentation:**
 
-![variable_not_on_line](images/goodindenattion.png)
+![variable_not_on_line](images/goodIndentationFunction.png)
 
 **Bad Spacing:**
 

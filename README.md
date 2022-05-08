@@ -217,10 +217,47 @@ function createMicrobrewery(name = "Hipster Brew Co.") {
 Spacing and indentation should be constant throughout your code. It makes your code easier to read,also in most cases it makes it easier to find a bug/error in your code.
 
 ### Variables
-All Variables should always start on the saae line.
+All Variables should always start on the same line.
 
 **Bad Indentation:**
+
 ![variable_not_on_line](images/variableNewLine.png)
+
+**Good Indentation:**
+
+![variable_not_on_line](images/variableOnsameLine.png)
+
+**Bad Spacing:**
+
+![variable_not_on_line](images/variableNewLine.png)
+
+**Good Spacing:**
+
+![variable_not_on_line](images/variableOnsameLine.png)
+
+### Functions
+Also functions of the same level should alwasys start on the same line and keep spacing constant when writing code.
+
+**Bad Indentation:**
+
+![variable_not_on_line](images/badAddition.png)
+
+**Good Indentation:**
+
+![variable_not_on_line](images/goodindenattion.png)
+
+**Bad Spacing:**
+
+![variable_not_on_line](images/bdFunct.png)
+
+**Good Spacing:**
+
+![variable_not_on_line](images/goodspacing.png)
+
+
+
+
+
 
 
 

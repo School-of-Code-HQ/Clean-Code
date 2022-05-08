@@ -1,3 +1,10 @@
-const yourBootcamp = "School of Code"
+function multiply(num1, num2) {
+  return num1 * num2;
+}
+function sum(num1, num2) {
+  return num1 + num2;
+}
 
-         const favoriteFood = "Pizza"
+function subtraction(num1, num2) {
+  return num1 - num2;
+}

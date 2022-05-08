@@ -1,36 +1,50 @@
 # clean-code-javascript
 
-## Table of Contents
+<!-- 1. Naming Conventions
+2. Indentation & Spacing
+3. Brackets
+4. Comments
+5. eg using prettier….
+
+## Table of Contents -->
 
 1. [Introduction](#introduction)
-2. [Variables](#variables)
-3. [Functions](#functions)
-4. [Objects and Data Structures](#objects-and-data-structures)
-5. [Classes](#classes)
-6. [SOLID](#solid)
-7. [Testing](#testing)
+2. [Naming Conventions](#variables)
+3. [Indentation & Spcacing](#functions)
+4. [Brackets & Colons](#objects-and-data-structures)
+5. [Comments](#classes)
+6. [Code Formatter](#solid)
+<!-- 7. [Testing](#testing)
 8. [Concurrency](#concurrency)
 9. [Error Handling](#error-handling)
 10. [Formatting](#formatting)
 11. [Comments](#comments)
-12. [Translation](#translation)
+12. [Translation](#translation) -->
 
 ## Introduction
+
+Clean code is not just code that works, but rather code rather code that can be easily read, reused, and refactored by other developers. Writing clean code is important because as a software developer you are not writing for yourself or the machine. In reality you are writing for other developers who will need to understand, edit and build over your work. As the saying goes codes are read more than they are written. It's important to always keep this in mind when ever you are writing code. 
+
+In this article, we will show some of the features you can use to write cleaner code.
+
+
+
+
 
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 
-Software engineering principles, from Robert C. Martin's book
+<!-- Software engineering principles, from Robert C. Martin's book
 [_Clean Code_](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
 adapted for JavaScript. This is not a style guide. It's a guide to producing
-[readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in JavaScript.
+[readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in JavaScript. -->
 
-Not every principle herein has to be strictly followed, and even fewer will be
+<!-- Not every principle herein has to be strictly followed, and even fewer will be
 universally agreed upon. These are guidelines and nothing more, but they are
 ones codified over many years of collective experience by the authors of
-_Clean Code_.
+_Clean Code_. -->
 
-Our craft of software engineering is just a bit over 50 years old, and we are
+<!-- Our craft of software engineering is just a bit over 50 years old, and we are
 still learning a lot. When software architecture is as old as architecture
 itself, maybe then we will have harder rules to follow. For now, let these
 guidelines serve as a touchstone by which to assess the quality of the
@@ -41,7 +55,7 @@ developer, and working with them for many years doesn't mean you won't make
 mistakes. Every piece of code starts as a first draft, like wet clay getting
 shaped into its final form. Finally, we chisel away the imperfections when
 we review it with our peers. Don't beat yourself up for first drafts that need
-improvement. Beat up the code instead!
+improvement. Beat up the code instead! -->
 
 ## **Variables**
 

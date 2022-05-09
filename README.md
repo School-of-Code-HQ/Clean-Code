@@ -652,10 +652,10 @@ inventoryTracker("apples", req, "www.inventory-awesome.io");
 
 ### How to leave comments like a pro!
 
-Comments save time, help other developers navigate through your code and help your future self understand what you had written.
+Comments save time, help other developers navigate through your code and help your future self understand what you had written.\
 Less is more when it comes to comments as good code should be self-documenting but comments can be very useful espically when learning to code.
 
-#### As you can see from the examples below, comment overkill can be overwhelming to the eye and take to much time to read through and understand.
+#### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
 **Bad:**
 

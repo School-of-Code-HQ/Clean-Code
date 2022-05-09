@@ -1,12 +1,9 @@
-# clean-code-javascript
 
-<!-- 1. Naming Conventions
-2. Indentation & Spacing
-3. Brackets
-4. Comments
-5. eg using prettier….
+# Styling and Formatting Guide
 
-## Table of Contents -->
+<img src="images/soclogo.png"  width="150" height="150"> 
+
+## Table of Contents 
 
 1. [Introduction](#introduction)
 2. [Naming Conventions](#Naming_Conventions)
@@ -2192,20 +2189,4 @@ This is also available in other languages:
 
 
 
-# Styling and Formatting Guide
 
-<img src="images/soclogo.png"  width="150" height="150"> 
-
-## Table of Content
-1. Naming Conventions
-2. Indentation & Spacing
-3. Brackets
-4. Comments
-5. eg using prettier….
-
-## Naming Conventions
-Always write meaningful and descriptive names for variables and functions.
-- Use lengthy names if necessary
-- Variables and functions are written in camelCase
-
-![naming](images/naming.png)

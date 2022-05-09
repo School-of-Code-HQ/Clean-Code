@@ -26,8 +26,7 @@ It should be self-explanatory, easy to understand and easy to change or extend.
 In this article, we will look at how and why code formatting is important.
 
 
-<img src="images/namingTitle.png">  ## **Naming Conventions**
-
+## **Naming Conventions**
 
 
 ### Always use meaningful and descriptive names for variables and functions.
@@ -647,8 +646,6 @@ inventoryTracker("apples", req, "www.inventory-awesome.io");
 **[⬆ back to top](#table-of-contents)**
 
 ## **Comments**
-
-<img src="images/commentsTitle.png"> 
 
 ### How to leave comments like a pro!
 

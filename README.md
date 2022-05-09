@@ -1841,7 +1841,7 @@ review.perfReview();
 
 ### How to leave comments like a pro!
 
-Comments save time, help other developers navigate through your code and help your future self understand what you had written
+Comments save time, help other developers navigate through your code and help your future self understand what you had written.
 Good code should be self documenting but comments can be really useful when you start learning to code. (CHECK WORDING)
 
 

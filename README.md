@@ -311,193 +311,9 @@ function showEmployeeList(employees) {
 
 **[⬆ back to top](#table-of-contents)**
 
-### Set default objects with Object.assign
 
-**Bad:**
 
-```javascript
-const menuConfig = {
-  title: null,
-  body: "Bar",
-  buttonText: null,
-  cancellable: true
-};
-
-function createMenu(config) {
-  config.title = config.title || "Foo";
-  config.body = config.body || "Bar";
-  config.buttonText = config.buttonText || "Baz";
-  config.cancellable =
-    config.cancellable !== undefined ? config.cancellable : true;
-}
-
-createMenu(menuConfig);
-```
-
-**Good:**
-
-```javascript
-const menuConfig = {
-  title: "Order",
-  // User did not include 'body' key
-  buttonText: "Send",
-  cancellable: true
-};
-
-function createMenu(config) {
-  let finalConfig = Object.assign(
-    {
-      title: "Foo",
-      body: "Bar",
-      buttonText: "Baz",
-      cancellable: true
-    },
-    config
-  );
-  return finalConfig
-  // config now equals: {title: "Order", body: "Bar", buttonText: "Send", cancellable: true}
-  // ...
-}
-
-createMenu(menuConfig);
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-### Don't use flags as function parameters
-
-Flags tell your user that this function does more than one thing. Functions should do one thing. Split out your functions if they are following different code paths based on a boolean.
-
-**Bad:**
-
-```javascript
-function createFile(name, temp) {
-  if (temp) {
-    fs.create(`./temp/${name}`);
-  } else {
-    fs.create(name);
-  }
-}
-```
-
-**Good:**
-
-```javascript
-function createFile(name) {
-  fs.create(name);
-}
-
-function createTempFile(name) {
-  createFile(`./temp/${name}`);
-}
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-### Avoid Side Effects (part 1)
-
-A function produces a side effect if it does anything other than take a value in
-and return another value or values. A side effect could be writing to a file,
-modifying some global variable, or accidentally wiring all your money to a
-stranger.
-
-Now, you do need to have side effects in a program on occasion. Like the previous
-example, you might need to write to a file. What you want to do is to
-centralize where you are doing this. Don't have several functions and classes
-that write to a particular file. Have one service that does it. One and only one.
-
-The main point is to avoid common pitfalls like sharing state between objects
-without any structure, using mutable data types that can be written to by anything,
-and not centralizing where your side effects occur. If you can do this, you will
-be happier than the vast majority of other programmers.
-
-**Bad:**
-
-```javascript
-// Global variable referenced by following function.
-// If we had another function that used this name, now it'd be an array and it could break it.
-let name = "Ryan McDermott";
-
-function splitIntoFirstAndLastName() {
-  name = name.split(" ");
-}
-
-splitIntoFirstAndLastName();
-
-console.log(name); // ['Ryan', 'McDermott'];
-```
-
-**Good:**
-
-```javascript
-function splitIntoFirstAndLastName(name) {
-  return name.split(" ");
-}
-
-const name = "Ryan McDermott";
-const newName = splitIntoFirstAndLastName(name);
-
-console.log(name); // 'Ryan McDermott';
-console.log(newName); // ['Ryan', 'McDermott'];
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-### Avoid Side Effects (part 2)
-
-In JavaScript, some values are unchangeable (immutable) and some are changeable 
-(mutable). Objects and arrays are two kinds of mutable values so it's important 
-to handle them carefully when they're passed as parameters to a function. A 
-JavaScript function can change an object's properties or alter the contents of 
-an array which could easily cause bugs elsewhere.
-
-Suppose there's a function that accepts an array parameter representing a 
-shopping cart. If the function makes a change in that shopping cart array - 
-by adding an item to purchase, for example - then any other function that 
-uses that same `cart` array will be affected by this addition. That may be 
-great, however it could also be bad. Let's imagine a bad situation:
-
-The user clicks the "Purchase" button which calls a `purchase` function that
-spawns a network request and sends the `cart` array to the server. Because
-of a bad network connection, the `purchase` function has to keep retrying the
-request. Now, what if in the meantime the user accidentally clicks an "Add to Cart"
-button on an item they don't actually want before the network request begins?
-If that happens and the network request begins, then that purchase function
-will send the accidentally added item because the `cart` array was modified.
-
-A great solution would be for the `addItemToCart` function to always clone the 
-`cart`, edit it, and return the clone. This would ensure that functions that are still
-using the old shopping cart wouldn't be affected by the changes.
-
-Two caveats to mention to this approach:
-
-1. There might be cases where you actually want to modify the input object,
-   but when you adopt this programming practice you will find that those cases
-   are pretty rare. Most things can be refactored to have no side effects!
-
-2. Cloning big objects can be very expensive in terms of performance. Luckily,
-   this isn't a big issue in practice because there are
-   [great libraries](https://facebook.github.io/immutable-js/) that allow
-   this kind of programming approach to be fast and not as memory intensive as
-   it would be for you to manually clone objects and arrays.
-
-**Bad:**
-
-```javascript
-const addItemToCart = (cart, item) => {
-  cart.push({ item, date: Date.now() });
-};
-```
-
-**Good:**
-
-```javascript
-const addItemToCart = (cart, item) => {
-  return [...cart, { item, date: Date.now() }];
-};
-```
-
-**[⬆ back to top](#table-of-contents)**
+<!--
 
 ### Don't write to global functions
 
@@ -649,6 +465,7 @@ if (isDOMNodePresent(node)) {
 ```
 
 **[⬆ back to top](#table-of-contents)**
+
 
 ### Avoid conditionals
 
@@ -2019,6 +1836,8 @@ review.perfReview();
 ```
 
 **[⬆ back to top](#table-of-contents)**
+
+-->
 
 ## **Comments**
 

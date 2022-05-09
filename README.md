@@ -34,17 +34,12 @@ In this article, we will look at how and why code formatting is important.
 
 **Bad:**
 
-```javascript
-function findItem() {
-};
-```
+![variable_not_on_line](images/namingCode.png)
 
 **Good:**
 
-```javascript
-function findBooksByAuthor() {
-};
-```
+![variable_not_on_line](images/namingCode2.png)
+
 
 **[⬆ back to top](#table-of-contents)**
 

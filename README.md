@@ -1837,11 +1837,11 @@ review.perfReview();
 
 ## **Comments**
 
-<img src="images/commentImage.png"> 
+<img src="images/commentsTitle.png"> 
 
 ### Comments save time, help other developers navigate through your code and help your future self understand what you had written.
 
-Comments are not a requirment but can be really useful as your learning to code. (CHECK WORDING)
+Good code should be self documenting but comments can be really useful when you start learning to code. (CHECK WORDING)
 
 **Bad:**
 

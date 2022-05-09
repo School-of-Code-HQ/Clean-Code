@@ -49,10 +49,7 @@ function findBooksByAuthor() {
 
 ## **Indentation-And-Spacing**
 
-Always remember code is read more than they are written. 
-It is easier to read code when indentation and spacing is consistant throughout your code. Good code formatting can also make fin debugging 
-
-Spacing and indentation should be constant throughout your code. It makes your code easier to read and can also help finding errors in your code easier.
+Always remember code is read more than they are written. Your code will run without indentation and spacing but it does makes your code easier to read and can help with finding errors in your code easier.
 
 Below are some examples of how indentation and spacing is used with JavaScript. (CHECK WORDING)
 
@@ -1838,9 +1835,11 @@ review.perfReview();
 
 ## **Comments**
 
-### Only comment things that have business logic complexity.
+<img src="images/commentImage.png"  width="150" height="150"> 
 
-Comments are an apology, not a requirement. Good code _mostly_ documents itself.
+### Comments save time, help other developers navigate through your code and help your future self understand what you had written.
+
+Comments are not a requirment and good code should be self-documenting.
 
 **Bad:**
 

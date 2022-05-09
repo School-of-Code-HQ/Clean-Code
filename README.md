@@ -20,7 +20,7 @@
 
 ## Introduction
 
-Well formatted code makes it easier to read and make errors more obvious. Code that is easy to read is easier to understand by you as well as other developers.
+Well formatted code makes it easier to read and make errors more obvious. Code that is easy to read is easier to understand by you as well as other developers.\
 It should be self-explanatory, easy to understand and easy to change or extend.
 
 In this article, we will look at how and why code formatting is important.
@@ -34,11 +34,11 @@ In this article, we will look at how and why code formatting is important.
 
 **Bad:**
 
-![variable_not_on_line](images/namingCode.png)
+![variable_not_on_line](images/namingCodeGood.png)
 
 **Good:**
 
-![variable_not_on_line](images/namingCode2.png)
+![variable_not_on_line](images/namingCodeBad.png)
 
 
 **[⬆ back to top](#table-of-contents)**

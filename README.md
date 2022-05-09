@@ -10,25 +10,20 @@
 3. [Indentation & Spcacing](#Indentation_And_Spacing)
 4. [Brackets & Colons](#objects-and-data-structures)
 5. [Comments](#classes)
-6. [Code Formatter](#solid)
-<!-- 7. [Testing](#testing)
-8. [Concurrency](#concurrency)
-9. [Error Handling](#error-handling)
-10. [Formatting](#formatting)
-11. [Comments](#comments)
-12. [Translation](#translation) -->
+6. [Code Formatter](#Code_formatters)
 
 ## Introduction
-
-Well formatted code makes it easier to read and make errors more obvious. Code that is easy to read is easier to understand by you as well as other developers.\
-It should be self-explanatory, easy to understand and easy to change or extend.
-
-In this article, we will look at how and why code formatting is important.
-
+In this article, we will look at how to format your code and why it's important.
+\
+Code Formatting is not necessary for functionality but well formatted code is easier to read not just by you but other developers. It can also help make errors in your code more obvious.
+\
+Good code should be self-explanatory, easy to understand and easy to change or extend.
 
 ## **Naming Conventions**
 
 ### Always use meaningful and descriptive names for variables and functions.
+
+#### Function Names
 
 **Bad:**
 
@@ -38,6 +33,15 @@ In this article, we will look at how and why code formatting is important.
 
 ![variable_not_on_line](images/namingCodeGood.png)
 
+#### Varible Names 
+
+**Bad:**
+
+![variable_not_on_line](images/varibleNameBad.png)
+
+**Good:**
+
+![variable_not_on_line](images/VaribleNameGood.png)
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -101,7 +105,7 @@ This is espically true when you are learning, although less is more when it come
 
 **[⬆ back to top](#table-of-contents)**
 
-
+## **Code Formatters**
 
 
 

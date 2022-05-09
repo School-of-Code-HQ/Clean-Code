@@ -653,7 +653,16 @@ inventoryTracker("apples", req, "www.inventory-awesome.io");
 ### How to leave comments like a pro!
 
 Comments save time, help other developers navigate through your code and help your future self understand what you had written.
-Good code should be self documenting but comments can be really useful when you start learning to code. (CHECK WORDING)
+Less is more when it comes to comments as good code should be self-documenting but comments can be very useful espically when learning to code.
+
+**Bad:**
+
+![variable_not_on_line](images/commentCodeBad.png)
+
+**Good:**
+
+![variable_not_on_line](images/commentCodeGood.png)
+
 
 ### Don't leave commented out code in your codebase
 

@@ -1835,7 +1835,7 @@ review.perfReview();
 
 ## **Comments**
 
-<img src="images/commentImage.png"  width="150" height="150"> 
+<img src="images/commentImage.png"> 
 
 ### Comments save time, help other developers navigate through your code and help your future self understand what you had written.
 

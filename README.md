@@ -1839,7 +1839,7 @@ review.perfReview();
 
 ### Comments save time, help other developers navigate through your code and help your future self understand what you had written.
 
-Comments are not a requirment and good code should be self-documenting.
+Comments are not a requirment but can be really useful as your learning to code. (CHECK WORDING)
 
 **Bad:**
 

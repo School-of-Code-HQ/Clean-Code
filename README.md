@@ -28,6 +28,10 @@ In this article, we will look at how and why code formatting is important.
 
 ## **Naming Conventions**
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bd3802bdb3f417764fc50ec2664acdf18694cd18
 ### Always use meaningful and descriptive names for variables and functions.
 
 **Bad:**

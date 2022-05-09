@@ -33,15 +33,15 @@ Good code should be self-explanatory, easy to understand and easy to change or e
 
 ![variable_not_on_line](images/namingCodeGood.png)
 
-#### Varible Names 
+#### Variable Names 
 
 **Bad:**
 
-![variable_not_on_line](images/varibleNameBad.png)
+![variable_not_on_line](images/variableNameBad.png)
 
 **Good:**
 
-![variable_not_on_line](images/VaribleNameGood.png)
+![variable_not_on_line](images/VariableNameGood.png)
 
 **[⬆ back to top](#table-of-contents)**
 

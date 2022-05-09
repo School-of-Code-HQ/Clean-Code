@@ -81,84 +81,12 @@ Also functions of the same level should alwasys start on the same line and keep 
 
 **[⬆ back to top](#table-of-contents)**
 
-### Functions should do one thing
-
-This is by far the most important rule in software engineering. When functions
-do more than one thing, they are harder to compose, test, and reason about.
-When you can isolate a function to just one action, it can be refactored
-easily and your code will read much cleaner. If you take nothing else away from
-this guide other than this, you'll be ahead of many developers.
-
-**Bad:**
-
-```javascript
-function emailClients(clients) {
-  clients.forEach(client => {
-    const clientRecord = database.lookup(client);
-    if (clientRecord.isActive()) {
-      email(client);
-    }
-  });
-}
-```
-
-**Good:**
-
-```javascript
-function emailActiveClients(clients) {
-  clients.filter(isActiveClient).forEach(email);
-}
-
-function isActiveClient(client) {
-  const clientRecord = database.lookup(client);
-  return clientRecord.isActive();
-}
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-
-### Remove dead code
-
-Dead code is just as bad as duplicate code. There's no reason to keep it in
-your codebase. If it's not being called, get rid of it! It will still be safe
-in your version history if you still need it.
-
-**Bad:**
-
-```javascript
-function oldRequestModule(url) {
-  // ...
-}
-
-function newRequestModule(url) {
-  // ...
-}
-
-const req = newRequestModule;
-inventoryTracker("apples", req, "www.inventory-awesome.io");
-```
-
-**Good:**
-
-```javascript
-function newRequestModule(url) {
-  // ...
-}
-
-const req = newRequestModule;
-inventoryTracker("apples", req, "www.inventory-awesome.io");
-```
-
-**[⬆ back to top](#table-of-contents)**
-
 ## **Comments**
 
 ### How to leave comments like a pro!
 
-Comments save time, help other developers navigate through your code and help your future self understand what you had written.\
-\
-Less is more when it comes to comments as good code should be self-documenting but comments can be very useful espically when learning to code.
+Comments save time, help other developers navigate through your code and help your future self understand what you had written.\ 
+This is espically true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
@@ -170,25 +98,6 @@ Less is more when it comes to comments as good code should be self-documenting b
 
 ![variable_not_on_line](images/commentCodeGood.png)
 
-
-### Don't leave commented out code in your codebase
-
-Version control exists for a reason. Leave old code in your history. (REWRITE)
-
-**Bad:**
-
-```javascript
-doStuff();
-// doOtherStuff();
-// doSomeMoreStuff();
-// doSoMuchStuff();
-```
-
-**Good:**
-
-```javascript
-doStuff();
-```
 
 **[⬆ back to top](#table-of-contents)**
 

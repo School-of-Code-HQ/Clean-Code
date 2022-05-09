@@ -34,11 +34,11 @@ In this article, we will look at how and why code formatting is important.
 
 **Bad:**
 
-![variable_not_on_line](images/namingCodeGood.png)
+![variable_not_on_line](images/namingCodeBad.png)
 
 **Good:**
 
-![variable_not_on_line](images/namingCodeBad.png)
+![variable_not_on_line](images/namingCodeGood.png)
 
 
 **[⬆ back to top](#table-of-contents)**

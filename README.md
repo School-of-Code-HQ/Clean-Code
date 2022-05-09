@@ -41,7 +41,7 @@ Good code should be self-explanatory, easy to understand and easy to change or e
 
 **Good:**
 
-![variable_not_on_line](images/VariableNameGood.png)
+![variable_not_on_line](images/variableNameGood.png)
 
 **[⬆ back to top](#table-of-contents)**
 

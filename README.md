@@ -26,9 +26,9 @@ It should be self-explanatory, easy to understand and easy to change or extend.
 In this article, we will look at how and why code formatting is important.
 
 
-## **Naming Conventions**
+<img src="images/namingTitle.png">  ## **Naming Conventions**
 
-<img src="images/namingTitle.png"> 
+
 
 ### Always use meaningful and descriptive names for variables and functions.
 

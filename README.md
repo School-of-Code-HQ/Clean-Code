@@ -312,9 +312,6 @@ function showEmployeeList(employees) {
 **[⬆ back to top](#table-of-contents)**
 
 
-
-<!--
-
 ### Don't write to global functions
 
 Polluting globals is a bad practice in JavaScript because you could clash with another
@@ -1837,7 +1834,7 @@ review.perfReview();
 
 **[⬆ back to top](#table-of-contents)**
 
--->
+
 
 ## **Comments**
 

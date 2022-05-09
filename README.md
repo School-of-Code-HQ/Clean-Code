@@ -23,201 +23,44 @@
 
 ## Introduction
 
-Clean code is not just code that works, but rather code rather code that can be easily read, reused, and refactored by other developers. Writing clean code is important because as a software developer you are not writing for yourself or the machine. In reality you are writing for other developers who will need to understand, edit and build over your work. As the saying goes codes are read more than they are written. It's important to always keep this in mind when ever you are writing code. 
+Well formatted code makes it easier to read and make errors more obvious. Code that is easy to read is easier to understand by you as well as other developers.
+It should be self-explanatory, easy to understand and easy to change or extend.
 
-In this article, we will show some of the features you can use to write cleaner code.
+In this article, we will look at how and why code formatting is important.
 
 
 ## **Naming_Conventions**
 
-### Use meaningful and pronounceable variable names
+### Always use meaningful and descriptive names for variables and functions.
 
 **Bad:**
 
 ```javascript
-const yyyymmdstr = moment().format("YYYY/MM/DD");
-```
-
-**Good:**
-
-```javascript
-const currentDate = moment().format("YYYY/MM/DD");
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-### Use the same vocabulary for the same type of variable
-
-**Bad:**
-
-```javascript
-getUserInfo();
-getClientData();
-getCustomerRecord();
-```
-
-**Good:**
-
-```javascript
-getUser();
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-### Use searchable names
-
-We will read more code than we will ever write. It's important that the code we
-do write is readable and searchable. By _not_ naming variables that end up
-being meaningful for understanding our program, we hurt our readers.
-Make your names searchable. Tools like
-[buddy.js](https://github.com/danielstjules/buddy.js) and
-[ESLint](https://github.com/eslint/eslint/blob/660e0918933e6e7fede26bc675a0763a6b357c94/docs/rules/no-magic-numbers.md)
-can help identify unnamed constants.
-
-**Bad:**
-
-```javascript
-// What the heck is 86400000 for?
-setTimeout(blastOff, 86400000);
-```
-
-**Good:**
-
-```javascript
-// Declare them as capitalized named constants.
-const MILLISECONDS_PER_DAY = 60 * 60 * 24 * 1000; //86400000;
-
-setTimeout(blastOff, MILLISECONDS_PER_DAY);
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-### Use explanatory variables
-
-**Bad:**
-
-```javascript
-const address = "One Infinite Loop, Cupertino 95014";
-const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
-saveCityZipCode(
-  address.match(cityZipCodeRegex)[1],
-  address.match(cityZipCodeRegex)[2]
-);
-```
-
-**Good:**
-
-```javascript
-const address = "One Infinite Loop, Cupertino 95014";
-const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
-const [_, city, zipCode] = address.match(cityZipCodeRegex) || [];
-saveCityZipCode(city, zipCode);
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-### Avoid Mental Mapping
-
-Explicit is better than implicit.
-
-**Bad:**
-
-```javascript
-const locations = ["Austin", "New York", "San Francisco"];
-locations.forEach(l => {
-  doStuff();
-  doSomeOtherStuff();
-  // ...
-  // ...
-  // ...
-  // Wait, what is `l` for again?
-  dispatch(l);
-});
-```
-
-**Good:**
-
-```javascript
-const locations = ["Austin", "New York", "San Francisco"];
-locations.forEach(location => {
-  doStuff();
-  doSomeOtherStuff();
-  // ...
-  // ...
-  // ...
-  dispatch(location);
-});
-```
-
-**[⬆ back to top](#table-of-contents)**
-
-### Don't add unneeded context
-
-If your class/object name tells you something, don't repeat that in your
-variable name.
-
-**Bad:**
-
-```javascript
-const Car = {
-  carMake: "Honda",
-  carModel: "Accord",
-  carColor: "Blue"
+function findItem() {
 };
-
-function paintCar(car, color) {
-  car.carColor = color;
-}
 ```
 
 **Good:**
 
 ```javascript
-const Car = {
-  make: "Honda",
-  model: "Accord",
-  color: "Blue"
+function findBooksByAuthor() {
 };
-
-function paintCar(car, color) {
-  car.color = color;
-}
 ```
 
 **[⬆ back to top](#table-of-contents)**
 
-### Use default arguments instead of short circuiting or conditionals
-
-Default arguments are often cleaner than short circuiting. Be aware that if you
-use them, your function will only provide default values for `undefined`
-arguments. Other "falsy" values such as `''`, `""`, `false`, `null`, `0`, and
-`NaN`, will not be replaced by a default value.
-
-**Bad:**
-
-```javascript
-function createMicrobrewery(name) {
-  const breweryName = name || "Hipster Brew Co.";
-  // ...
-}
-```
-
-**Good:**
-
-```javascript
-function createMicrobrewery(name = "Hipster Brew Co.") {
-  // ...
-}
-```
-
-**[⬆ back to top](#table-of-contents)**
 
 ## **Indentation-And-Spacing**
 
-Spacing and indentation should be constant throughout your code. It makes your code easier to read,also in most cases it makes it easier to find a bug/error in your code.
+Always remember code is read more than they are written. 
+It is easier to read code when indentation and spacing is consistant throughout your code. Good code formatting can also make fin debugging 
+
+Spacing and indentation should be constant throughout your code. It makes your code easier to read and can also help finding errors in your code easier.
+
+Below are some examples of how indentation and spacing is used with JavaScript. (CHECK WORDING)
 
 ### Variables
-All Variables should always start on the same line.
+Variables should always start on the same line.
 
 **Bad Indentation:**
 

@@ -28,7 +28,7 @@ In this article, we will look at how and why code formatting is important.
 
 ## **Naming_Conventions**
 
-<img src="images/namingCon.png"> 
+<img src="images/namingCon.png" width="150" height="100"> > 
 
 ### Always use meaningful and descriptive names for variables and functions.
 

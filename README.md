@@ -7,7 +7,7 @@
 1. [Introduction](#Introduction)
 2. [Naming Conventions](#Naming_Conventions)
 3. [Indentation & Spcacing](#Indentation_And_Spacing)
-4. [Brackets & Colons](#objects-and-data-structures)
+4. [Brackets & Colons](#Brackets-And-Semi_Colons)
 5. [Comments](#Comments)
 6. [Code Formatter](#Code_Formatters)
 

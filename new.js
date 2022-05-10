@@ -1,8 +1,4 @@
-function multiply(num1, num2) {
-  return num1 * num2;
+let i = 0;
+while (i < 10) {
+  i++;
 }
-
-function sum(num1, num2) {
-  return num1 + num2;
-}
-

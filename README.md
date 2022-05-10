@@ -1,9 +1,8 @@
-
 # Styling and Formatting Guide
 
-<img src="images/soclogo.png"  width="150" height="150"> 
+<img src="images/soclogo.png"  width="150" height="150">
 
-## Table of Contents 
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Naming Conventions](#Naming_Conventions)
@@ -13,6 +12,7 @@
 6. [Code Formatter](#Code_formatters)
 
 ## Introduction
+
 In this article, we will look at how to format your code and why it's important.
 \
 Code Formatting is not necessary for functionality but well formatted code is easier to read not just by you but other developers. It can also help make errors in your code more obvious.
@@ -33,7 +33,7 @@ Good code should be self-explanatory, easy to understand and easy to change or e
 
 ![variable_not_on_line](images/namingCodeGood.png)
 
-#### Variable Names 
+#### Variable Names
 
 **Bad:**
 
@@ -45,7 +45,6 @@ Good code should be self-explanatory, easy to understand and easy to change or e
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## **Indentation-And-Spacing**
 
 Always remember code is read more than they are written. Your code will run without indentation and spacing but it does makes your code easier to read and can help with finding errors in your code easier.
@@ -53,6 +52,7 @@ Always remember code is read more than they are written. Your code will run with
 Below are some examples of how indentation and spacing is used with JavaScript. (CHECK WORDING)
 
 ### Variables
+
 Variables should always start on the same line.
 
 **Bad Indentation:**
@@ -64,6 +64,7 @@ Variables should always start on the same line.
 ![variable_not_on_line](images/variableOnsameLine.png)
 
 ### Functions
+
 Also functions of the same level should alwasys start on the same line and keep spacing constant when writing code.
 
 **Bad Indentation:**
@@ -82,6 +83,36 @@ Also functions of the same level should alwasys start on the same line and keep 
 
 ![variable_not_on_line](images/goodspacing.png)
 
+## **Brackets-And-Semi_Colons**
+
+### Brackets
+
+There are three main types of brackets in javascript. They are parenthesis, square brackets and curly brackets. This section shows what they do and how you can use them.
+
+#### Parenthesis ()
+
+Parenthesis are mostly used to define function parameters but in some cases can also be used to define orders of evaluatin.
+
+##### As you can see in the example below the parameters of the function are put in a parenthesis
+
+When a function has a parameter it makes the function reuseable.
+
+![variable_not_on_line](images/parenthesisFunction.png)
+
+##### Parenthesis also define order of evaluation in calculations.
+
+![variable_not_on_line](images/Parenthesis.png)
+As you can see in the example above it evaluates 2+3 first (5) and then multiplies by 4 = 20.
+
+##### Lastly, Parenthesis are required in For and While loops
+
+The example below shows how parenthesis are used in both for and while loops.
+
+For loop:
+![variable_not_on_line](images/forloop.png)
+
+While loop:
+![variable_not_on_line](images/whileloop.png)
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -89,7 +120,7 @@ Also functions of the same level should alwasys start on the same line and keep 
 
 ### How to leave comments like a pro!
 
-Comments save time, help other developers navigate through your code and help your future self understand what you had written.\ 
+Comments save time, help other developers navigate through your code and help your future self understand what you had written.\
 This is espically true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 \
 In JavaScript — Create a single-line comment with // and multi-line comments using /* and */ 
@@ -104,12 +135,8 @@ In JavaScript — Create a single-line comment with // and multi-line comments u
 
 ![variable_not_on_line](images/commentCodeGood.png)
 
-
 **[⬆ back to top](#table-of-contents)**
 
 <img src="images/deskLady.png"> 
 
 ## **Code Formatters**
-
-
-

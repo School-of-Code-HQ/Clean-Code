@@ -82,6 +82,30 @@ Also functions of the same level should alwasys start on the same line and keep 
 
 ![variable_not_on_line](images/goodspacing.png)
 
+## **Brackets-And-Semi_Colons**
+
+### Brackets
+There are three main types of brackets in javascript. They are parenthesis, square brackets and curly brackets. This section shows what they do and how you can use them.
+
+#### Parenthesis ()
+Parenthesis are mostly used to define function parameters but in some cases can also be used to define orders of evaluatin.
+
+##### As you can see in the example below the parameters of the function are put in a parenthesis
+When a function has a parameter it makes the function reuseable.
+
+![variable_not_on_line](images/parenthesisFunction.png)
+
+##### Parenthesis also define order of evaluation in calculations.
+
+![variable_not_on_line](images/Parenthesis.png)
+As you can see in the example above it evaluates 2+3 first (5) and then multiplies by 4 = 20.
+
+
+
+
+
+
+
 
 **[⬆ back to top](#table-of-contents)**
 

@@ -51,7 +51,7 @@ Remember to always use meaningful names so your code speaks for itself.
 
 ## 3: **Indentation-And-Spacing**
 
-Always remember code is read more than they are written. Your code will run without indentation and spacing but it does makes your code easier to read and can help with finding errors in your code easier.
+Always remember code is read more than they are written. Your code will run without good indentation and spacing but it does makes your code easier to read and can help with finding errors in your code easier.
 
 Below are some examples of how indentations and spacings are used in JavaScript. (CHECK WORDING)
 

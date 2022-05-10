@@ -136,11 +136,11 @@ Getting an item in an Array:
 
 ### How to leave comments like a pro!
 
-Comments save time, help other developers navigate through your code and help your future self understand what you had written.\
+Comments save time, help other developers navigate through your code and help your future self understand what you had written.
+
 This is espically true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
-\
+
 In JavaScript — Create a single-line comment with // and multi-line comments using /_ and _/
-\
 
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 

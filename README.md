@@ -27,7 +27,7 @@ Using descriptive names revels the intention of the code and reduces the effort 
 
 Remember to always use meaningful and descriptive names for variables and functions.
 
-#### Function Names
+### Function Names
 
 **Bad:**
 
@@ -37,7 +37,7 @@ Remember to always use meaningful and descriptive names for variables and functi
 
 ![variable_not_on_line](images/namingCodeGood.png)
 
-#### Variable Names
+### Variable Names
 
 **Bad:**
 

@@ -4,14 +4,14 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
+1. [Introduction](#Introduction)
 2. [Naming Conventions](#Naming_Conventions)
 3. [Indentation & Spcacing](#Indentation_And_Spacing)
 4. [Brackets & Colons](#objects-and-data-structures)
-5. [Comments](#classes)
-6. [Code Formatter](#Code_formatters)
+5. [Comments](#Comments)
+6. [Code Formatter](#Code_Formatters)
 
-## Introduction
+## 1: **Introduction**
 
 In this article, we will look at how to format your code and why it's important.
 
@@ -19,7 +19,7 @@ Code Formatting is not necessary for functionality but well formatted code is ea
 
 Good code should be self-explanatory, easy to understand and easy to change or extend.
 
-## **Naming Conventions**
+## 2: **Naming_Conventions**
 
 ### WHY NAMING CONVENTIONS ARE IMPORTANT:
 
@@ -49,7 +49,7 @@ Remember to always use meaningful and descriptive names for variables and functi
 
 **[⬆ back to top](#table-of-contents)**
 
-## **Indentation-And-Spacing**
+## 3: **Indentation-And-Spacing**
 
 Always remember code is read more than they are written. Your code will run without indentation and spacing but it does makes your code easier to read and can help with finding errors in your code easier.
 
@@ -87,7 +87,7 @@ Also functions of the same level should alwasys start on the same line and keep 
 
 ![variable_not_on_line](images/goodspacing.png)
 
-## **Brackets-And-Semi_Colons**
+## 4: **Brackets-And-Semi_Colons**
 
 ### Brackets
 
@@ -132,7 +132,7 @@ Getting an item in an Array:
 
 **[⬆ back to top](#table-of-contents)**
 
-## **Comments**
+## 5: **Comments**
 
 ### How to leave comments like a pro!
 
@@ -154,9 +154,11 @@ In JavaScript — Create a single-line comment with // and multi-line comments u
 
 **[⬆ back to top](#table-of-contents)**
 
-## **Code Formatters**
+## 6: **Code_Formatters**
 
 ### WHY WE USE FORMATTERS:
+
+Remembering all the rules about code formatting can be taxing so thats where code formatters can help!
 
 Code formatters automatically format code for you depending on the preferences you set. Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written.
 

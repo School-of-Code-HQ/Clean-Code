@@ -1,1 +1,4 @@
-const answer  = 4*(2+3)
+let i = 0;
+while (i < 10) {
+  i++;
+}

@@ -8,7 +8,7 @@
 2. [Naming Conventions](#Naming_Conventions)
 3. [Indentation & Spcacing](#Indentation_And_Spacing)
 4. [Brackets & Colons](#objects-and-data-structures)
-5. [Comments](#classes)
+5. [Comments](#Comments)
 6. [Code Formatter](#Code_formatters)
 
 ## Introduction
@@ -114,7 +114,7 @@ For loop:
 While loop:
 ![variable_not_on_line](images/whileloop.png)
 
-#### Square Brackets
+#### Square Brackets []
 
 Square brackets are often use to define an array and also get items from an array.
 
@@ -126,6 +126,27 @@ Defining an Array:
 Getting an item in an Array:
 ![variable_not_on_line](images/arrayItem.png)
 
+#### Curly Brackets {}
+
+Curly brackets are used to open and close blocks of code. They declare when the function starts and end. Lastly, they are also used in defining objects.
+
+If statement:
+![variable_not_on_line](images/curly_bracket.png)
+
+The code in the curly bracket runs if the condition in the parenthesis is met.
+
+While loop and for loop:
+![variable_not_on_line](images/whileblock.png)
+
+![variable_not_on_line](images/forcurly.png)
+
+The block of code to run if the condition is met goes into the curly bracket.
+
+Objects:
+Lastly, Curly brackets are used to define objects.
+
+![variable_not_on_line](images/curlyobject.png)
+
 **[⬆ back to top](#table-of-contents)**
 
 ## **Comments**
@@ -135,8 +156,9 @@ Getting an item in an Array:
 Comments save time, help other developers navigate through your code and help your future self understand what you had written.\
 This is espically true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 \
-In JavaScript — Create a single-line comment with // and multi-line comments using /* and */ 
+In JavaScript — Create a single-line comment with // and multi-line comments using /_ and _/
 \
+
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
 **Bad:**
@@ -149,6 +171,6 @@ In JavaScript — Create a single-line comment with // and multi-line comments u
 
 **[⬆ back to top](#table-of-contents)**
 
-<img src="images/deskLady.png"> 
+<img src="images/deskLady.png">
 
 ## **Code Formatters**

@@ -14,9 +14,9 @@
 ## Introduction
 
 In this article, we will look at how to format your code and why it's important.
-\
+
 Code Formatting is not necessary for functionality but well formatted code is easier to read not just by you but other developers. It can also help make errors in your code more obvious.
-\
+
 Good code should be self-explanatory, easy to understand and easy to change or extend.
 
 ## **Naming Conventions**
@@ -140,7 +140,7 @@ Comments save time, help other developers navigate through your code and help yo
 
 This is espically true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 
-In JavaScript — Create a single-line comment with // and multi-line comments using /* and */
+In JavaScript — Create a single-line comment with // and multi-line comments using /_ and _/
 
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 

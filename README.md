@@ -123,8 +123,9 @@ While loop:
 Comments save time, help other developers navigate through your code and help your future self understand what you had written.\
 This is espically true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 \
-In JavaScript — Create a single-line comment with // and multi-line comments using /* and */ 
+In JavaScript — Create a single-line comment with // and multi-line comments using /_ and _/
 \
+
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
 **Bad:**
@@ -137,6 +138,57 @@ In JavaScript — Create a single-line comment with // and multi-line comments u
 
 **[⬆ back to top](#table-of-contents)**
 
-<img src="images/deskLady.png"> 
-
 ## **Code Formatters**
+
+Code formatters automatically format code for you depending on the preferences you set.
+Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written.
+\
+Many developers maintain standards of code formatting like 2-space or 4-space indentation or using single or double quotes. This helps with both readbility and finding errors.
+\
+One such formatter is Prettier.
+\
+
+#### Step 1 — Install the extension in VS Code
+
+To do this, search for Prettier - Code Formatter in the extension panel of VS Code. If you’re installing it for the first time, you’ll see an install button instead of the uninstall button shown here:
+<img src="images/prettier1.png">
+
+#### Step 2 — Run Prettier on a file
+
+1 - Open Files -> Preferences -> Settings (or Ctrl + , in Windows).
+2 - Search for Editor: Default Formatter
+3 - Select your default formatter as Prettier - Code Formatter;
+
+<img src="images/prettierFormatDoc.png">
+
+#### Step 3 — Automatically run Prettier when saving a file
+
+1 - Open Files -> Preferences -> Settings (or Ctrl + , in Windows) to open the Settings menu.
+2 - Search for Editor: Format on Save
+3 - Click the check box under Format On Save;
+
+<img src="images/prettierFormatOnSave.png">
+
+#### Step 3 — Changing the Prettier Configuration Settings
+
+Along with Prettier's default settings you can also customize your settings.
+
+Open the Settings menu. Then, search for Prettier. This will show all of the settings that you can change:
+
+<img src="images/prettierCustomSettings.png">
+
+Here are a few of the most common settings:
+
+1 "singleQuote" - Choose between single and double-quotes.
+2 "semi" - Choose whether or not to include semicolons at the end of lines.
+3 - Specify how many spaces you want a tab to insert.
+
+#### step 4 — Creating a Prettier Configuration File
+
+Create a new file called .prettierrc.extension with a js extensions. For example, to set up a JavaScript config file you would use: _.prettierrc.js_
+
+NOTE: Since Prettier will run for all files, its config file goes at the root of the repo.
+
+<img src="images/prettierConfigFile.png">
+
+For more details on Prettier, click the link to the Documentation: https://prettier.io/docs/en/configuration.html

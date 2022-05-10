@@ -163,7 +163,7 @@ One such formatter is Prettier.
 #### Step 1 — Install the extension in VS Code
 
 To do this, search for Prettier - Code Formatter in the extension panel of VS Code. If you’re installing it for the first time, you’ll see an install button instead of the uninstall button shown here:
-<img src="images/prettier1.png">
+<img src="images/prettierExtention.png">
 
 #### Step 2 — Run Prettier on a file
 

@@ -152,9 +152,12 @@ In JavaScript — Create a single-line comment with // and multi-line comments u
 
 ## **Code Formatters**
 
-Code formatters automatically format code for you depending on the preferences you set.\
-Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written.\
-Many developers maintain standards of code formatting like 2-space or 4-space indentation or using single or double quotes. This helps with both readbility and finding errors.\
+Code formatters automatically format code for you depending on the preferences you set.
+
+Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written.
+
+Many developers maintain standards of code formatting like 2-space or 4-space indentation or using single or double quotes. This helps with both readbility and finding errors.
+
 One such formatter is Prettier.
 
 #### Step 1 - Install the extension in VS Code

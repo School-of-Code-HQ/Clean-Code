@@ -114,6 +114,18 @@ For loop:
 While loop:
 ![variable_not_on_line](images/whileloop.png)
 
+#### Square Brackets
+
+Square brackets are often use to define an array and also get items from an array.
+
+The examples below shows how square brackets are used in javascript.
+
+Defining an Array:
+![variable_not_on_line](images/array.png)
+
+Getting an item in an Array:
+![variable_not_on_line](images/arrayItem.png)
+
 **[⬆ back to top](#table-of-contents)**
 
 ## **Comments**

@@ -21,9 +21,15 @@ Good code should be self-explanatory, easy to understand and easy to change or e
 
 ## **Naming Conventions**
 
-### Always use meaningful and descriptive names for variables and functions.
+### WHY NAMING CONVENTIONS ARE IMPORTANT:
+
+Using descriptive names revels the intention of the code and reduces the effort needed to read that code and understand what it is doing.
+
+Remember to always use meaningful and descriptive names for variables and functions.
 
 #### Function Names
+
+See example below of good and bad names in functions:
 
 **Bad:**
 
@@ -34,6 +40,8 @@ Good code should be self-explanatory, easy to understand and easy to change or e
 ![variable_not_on_line](images/namingCodeGood.png)
 
 #### Variable Names
+
+See example below of good and bad names in variables:
 
 **Bad:**
 
@@ -152,9 +160,9 @@ In JavaScript — Create a single-line comment with // and multi-line comments u
 
 ## **Code Formatters**
 
-### Code formatters automatically format code for you depending on the preferences you set.
+### WHY WE USE FORMATTERS:
 
-Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written.
+Code formatters automatically format code for you depending on the preferences you set. Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written.
 
 Many developers maintain standards of code formatting like 2-space or 4-space indentation or using single or double quotes. This helps with both readbility and finding errors.
 

@@ -53,7 +53,7 @@ Remember to always use meaningful names so your code speaks for itself.
 
 Always remember code is read more than they are written. Your code will run without indentation and spacing but it does makes your code easier to read and can help with finding errors in your code easier.
 
-Below are some examples of how indentation and spacing is used with JavaScript. (CHECK WORDING)
+Below are some examples of how indentations and spacings are used in JavaScript. (CHECK WORDING)
 
 ### Variables
 
@@ -120,7 +120,7 @@ While loop:
 
 #### Square Brackets []
 
-Square brackets are often use to define an array and also get items from an array.
+Square brackets are often used to define an array and also get items from an array.
 
 The examples below shows how square brackets are used in javascript.
 
@@ -140,11 +140,12 @@ If statement:
 The code in the curly bracket runs if the condition in the parenthesis is met.
 
 While loop and for loop:
+The block of code to run if the conditions are met goes into the curly bracket.
+
 ![variable_not_on_line](images/whileblock.png)
 
 ![variable_not_on_line](images/forcurly.png)
 
-The block of code to run if the condition is met goes into the curly bracket.
 
 Objects:
 Lastly, Curly brackets are used to define objects.

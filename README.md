@@ -140,7 +140,7 @@ Comments save time, help other developers navigate through your code and help yo
 
 This is espically true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 
-In JavaScript — Create a single-line comment with // and multi-line comments using /* and */.
+In JavaScript — Create a single-line comment with // and multi-line comments using /_ and _/.
 
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
@@ -208,3 +208,5 @@ NOTE: Since Prettier will run for all files, its config file goes at the root of
 <img src="images/prettierConfigFile.png">
 
 For more details on Prettier, click the link to the documentation: https://prettier.io/docs/en/configuration.html
+
+**[⬆ back to top](#table-of-contents)**

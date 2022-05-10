@@ -29,8 +29,6 @@ Remember to always use meaningful and descriptive names for variables and functi
 
 #### Function Names
 
-See example below of good and bad names in functions:
-
 **Bad:**
 
 ![variable_not_on_line](images/namingCodeBad.png)
@@ -40,8 +38,6 @@ See example below of good and bad names in functions:
 ![variable_not_on_line](images/namingCodeGood.png)
 
 #### Variable Names
-
-See example below of good and bad names in variables:
 
 **Bad:**
 

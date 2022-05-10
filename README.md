@@ -91,7 +91,9 @@ Also functions of the same level should alwasys start on the same line and keep 
 
 Comments save time, help other developers navigate through your code and help your future self understand what you had written.\ 
 This is espically true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
-
+\
+In JavaScript — Create a single-line comment with // and multi-line comments using /* and */ 
+\
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
 **Bad:**
@@ -104,6 +106,8 @@ This is espically true when you are learning, although less is more when it come
 
 
 **[⬆ back to top](#table-of-contents)**
+
+<img src="images/deskLady.png"> 
 
 ## **Code Formatters**
 

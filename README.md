@@ -152,7 +152,7 @@ In JavaScript — Create a single-line comment with // and multi-line comments u
 
 ## **Code Formatters**
 
-Code formatters automatically format code for you depending on the preferences you set.
+### Code formatters automatically format code for you depending on the preferences you set.
 
 Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written.
 

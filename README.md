@@ -243,7 +243,3 @@ NOTE: Since Prettier will run for all files, its config file goes at the root of
 For more details on Prettier, click the link to the documentation: https://prettier.io/docs/en/configuration.html
 
 **[⬆ back to top](#table-of-contents)**
-
-```
-
-```

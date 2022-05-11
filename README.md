@@ -31,21 +31,35 @@ Remember to always use meaningful names so your code speaks for itself.
 
 **Bad:**
 
-![variable_not_on_line](images/namingCodeBad.png)
+```js
+function findItem() {}
+```
 
 **Good:**
 
-![variable_not_on_line](images/namingCodeGood.png)
+```js
+function findBooksByAuthor() {}
+```
 
 ### Variable Names
 
 **Bad:**
 
-![variable_not_on_line](images/variableNameBad.png)
+```js
+let someStuff = ["Black Sea", "Caribbean Sea", "North Sea", "Baltic Sea"];
+```
 
 **Good:**
 
-![variable_not_on_line](images/variableNameGood.png)
+```js
+let shoppingList = [
+  ["Banana", 3],
+  ["Apple", 4],
+  ["Orange", 5],
+  ["Peach", 6],
+  ["Pineaple", 7],
+];
+```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -140,17 +154,34 @@ Comments save time, help other developers navigate through your code and help yo
 
 This is especially true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 
-In JavaScript you create a single-line comment with // and multi-line comments using /* and */.
+In JavaScript you create a single-line comment with `js //` and multi-line comments using `js /_ and _/ `.
 
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
 **Bad:**
 
-![variable_not_on_line](images/commentCodeBad.png)
+```js
+function printMessage() {
+  //calls a function
+  var comment = document.getElementbyID("comments").value; // declares a variable
+  if (comment != null && comment != "") {
+    //starts an if statement if there's a comment
+    return console.log("What a meaningful comment"); //prints a string to the console
+  }
+}
+```
 
 **Good:**
 
-![variable_not_on_line](images/commentCodeGood.png)
+```js
+//checks to see if there's a comment. If so, returns a message.
+function printMessage() {
+  var comment = document.getElementbyID("comments").value;
+  if (comment != null && comment != "") {
+    return console.log("What a meaningful comment");
+  }
+}
+```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -212,3 +243,7 @@ NOTE: Since Prettier will run for all files, its config file goes at the root of
 For more details on Prettier, click the link to the documentation: https://prettier.io/docs/en/configuration.html
 
 **[⬆ back to top](#table-of-contents)**
+
+```
+
+```

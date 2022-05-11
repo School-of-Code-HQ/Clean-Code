@@ -76,7 +76,7 @@ Statement with the same indentation level(whitespace) should be treated as a sin
 ```js
 let myName = "Kazeem";
 if (myName === "Kazeem") {
-  console.log(myName); //this is indented because it's treated as seperate code block and runs base on a certain condition.
+  console.log(myName); //this is indented because it's treated as a seperate code block.
 }
 myName = "Ade";
 ```
@@ -84,7 +84,7 @@ myName = "Ade";
 ```js
 const names = ["kazeem", "chris", "Liz"];
 for (let i = 0; i < names.length; i++) {
-  console.log(names[i]); //this is indented because it's treated as seperate code block and runs base on a certain condition.
+  console.log(names[i]); //this is indented because it's treated as seperate code block.
 }
 ```
 

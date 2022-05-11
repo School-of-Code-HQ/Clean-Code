@@ -72,10 +72,11 @@ Indentation is the leading whitespace before any statement in javascript. Indent
 Statement with the same indentation level(whitespace) should be treated as a single code block.
 
 #### Some examples that show how indentation can be used:
+
 ```js
 let myName = "Kazeem";
 if (myName === "Kazeem") {
-    console.log(myName); //this is indented because it's treated as seperate code block and runs base on a certain condition.
+  console.log(myName); //this is indented because it's treated as seperate code block and runs base on a certain condition.
 }
 myName = "Ade";
 ```
@@ -83,9 +84,23 @@ myName = "Ade";
 ```js
 const names = ["kazeem", "chris", "Liz"];
 for (let i = 0; i < names.length; i++) {
-    console.log(names[i]); //this is indented because it's treated as seperate code block and runs base on a certain condition.
+  console.log(names[i]); //this is indented because it's treated as seperate code block and runs base on a certain condition.
 }
 ```
+
+![variable_not_on_line](images/adIndentation%20funtion.png)
+
+**Good Indentation:**
+
+![variable_not_on_line](images/goodIndentationFunction.png)
+
+**Bad Spacing:**
+
+![variable_not_on_line](images/bdFunct.png)
+
+**Good Spacing:**
+
+![variable_not_on_line](images/goodspacing.png)
 
 ## 4: **Brackets-And-Semi_Colons**
 

@@ -5,9 +5,9 @@
 ## Table of Contents
 
 1. [Introduction](#Introduction)
-2. [Naming Conventions](#Naming_Conventions)
+2. [Naming Conventions](#1:Naming_Conventions)
 3. [Indentation & Spcacing](#Indentation_And_Spacing)
-4. [Brackets & Colons](#Brackets-And-Semi_Colons)
+4. [Brackets & Colons](#Brackets)
 5. [Comments](#Comments)
 6. [Code Formatter](#Code_Formatters)
 
@@ -73,6 +73,8 @@ Statement with the same indentation level(whitespace) should be treated as a sin
 
 #### Some examples that show how indentation can be used:
 
+The indented code only run if the conditoions are met. This shows the code is in a seperate code block.
+
 ```js
 let myName = "Kazeem";
 if (myName === "Kazeem") {
@@ -95,8 +97,8 @@ White spacing makes your code readable and also makes it easy to find errors in 
 Bad:
 
 ```js
-const names=["kazeem", "chris", "Liz"];
-const favouriteLanguage="Python";
+const names = ["kazeem", "chris", "Liz"];
+const favouriteLanguage = "Python";
 ```
 
 Good:
@@ -125,6 +127,7 @@ function(food){
 console.log(food)
 }
 ```
+
 Good:
 The line spacing between the functions are consistent.
 
@@ -142,9 +145,7 @@ console.log(food)
 }
 ```
 
-## 4: **Brackets-And-Semi_Colons**
-
-### Brackets
+## 4: **Brackets**
 
 There are three main types of brackets in javascript. They are parenthesis, square brackets and curly brackets. This section shows what they do and how you can use them.
 
@@ -175,36 +176,65 @@ While loop:
 
 #### Square Brackets []
 
-Square brackets are often used to define an array and also get items from an array.
+Square brackets are often used to define an array and also get items from an array and objects.
 
 The examples below shows how square brackets are used in javascript.
 
 Defining an Array:
-![variable_not_on_line](images/array.png)
+
+```js
+const positiveNumbers = [1, 2, 3, 45, 6, 77];
+```
 
 Getting an item in an Array:
-![variable_not_on_line](images/arrayItem.png)
+
+```js
+const positiveNumbers = [1, 2, 3, 45, 6, 77];
+positiveNumbers[0]; // gets 1 from the array
+positiveNumbers[2]; // gets 3 from the array
+```
+
+Square bracket notation in objects:
+
+Square brackets can be used to get the value of a key in an object. This does the same thing as using dot(.) notation to get the values.
+
+```js
+const coachesAge = { kazeem: 15, jordan: 18, arshi: 17 };
+coachesAge["kazeem"]; //gets the value of kazeem from the object (15)
+coachesAge["arshi"]; //gets the value of arshi from the object (17)
+```
 
 #### Curly Brackets {}
 
 Curly brackets are used to open and close blocks of code. They declare when the function starts and end. Lastly, they are also used in defining objects.
 
-If statement:
-![variable_not_on_line](images/curly_bracket.png)
-
 The code in the curly bracket runs if the condition in the parenthesis is met.
 
-While loop and for loop:
-The block of code to run if the conditions are met goes into the curly bracket.
+```js
+const yourName = "Kazeem";
+if (yourName === "Kazeem") {
+  console.log(yourName);
+}
+```
 
-![variable_not_on_line](images/whileblock.png)
+```js
+let i = 0;
+while (i < 10) {
+  i++;
+}
+```
 
-![variable_not_on_line](images/forcurly.png)
+```js
+for (let i = 0; i < array.length; i++) {
+  console.log(i);
+}
+```
 
-Objects:
 Lastly, Curly brackets are used to define objects.
 
-![variable_not_on_line](images/curlyobject.png)
+```js
+const coachesAge = { kazeem: 12, jordan: 15 };
+```
 
 **[⬆ back to top](#table-of-contents)**
 

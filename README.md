@@ -7,7 +7,7 @@
 1. [Introduction](#Introduction)
 2. [Naming Conventions](#Naming_Conventions)
 3. [Indentation & Spcacing](#Indentation_And_Spacing)
-4. [Brackets & Colons](#objects-and-data-structures)
+4. [Brackets & Colons](#Brackets-And-Semi_Colons)
 5. [Comments](#Comments)
 6. [Code Formatter](#Code_Formatters)
 
@@ -65,9 +65,9 @@ let shoppingList = [
 
 ## 3: **Indentation-And-Spacing**
 
-Always remember code is read more than they are written. Your code will run without indentation and spacing but it does makes your code easier to read and can help with finding errors in your code easier.
+Always remember code is read more than they are written. Your code will run without good indentation and spacing but it does makes your code easier to read and can help with finding errors in your code easier.
 
-Below are some examples of how indentation and spacing is used with JavaScript. (CHECK WORDING)
+Below are some examples of how indentations and spacings are used in JavaScript. (CHECK WORDING)
 
 ### Variables
 
@@ -132,9 +132,9 @@ For loop:
 While loop:
 ![variable_not_on_line](images/whileloop.png)
 
-#### Square Brackets
+#### Square Brackets []
 
-Square brackets are often use to define an array and also get items from an array.
+Square brackets are often used to define an array and also get items from an array.
 
 The examples below shows how square brackets are used in javascript.
 
@@ -143,6 +143,28 @@ Defining an Array:
 
 Getting an item in an Array:
 ![variable_not_on_line](images/arrayItem.png)
+
+#### Curly Brackets {}
+
+Curly brackets are used to open and close blocks of code. They declare when the function starts and end. Lastly, they are also used in defining objects.
+
+If statement:
+![variable_not_on_line](images/curly_bracket.png)
+
+The code in the curly bracket runs if the condition in the parenthesis is met.
+
+While loop and for loop:
+The block of code to run if the conditions are met goes into the curly bracket.
+
+![variable_not_on_line](images/whileblock.png)
+
+![variable_not_on_line](images/forcurly.png)
+
+
+Objects:
+Lastly, Curly brackets are used to define objects.
+
+![variable_not_on_line](images/curlyobject.png)
 
 **[⬆ back to top](#table-of-contents)**
 

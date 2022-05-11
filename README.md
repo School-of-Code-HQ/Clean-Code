@@ -88,19 +88,59 @@ for (let i = 0; i < names.length; i++) {
 }
 ```
 
-![variable_not_on_line](images/adIndentation%20funtion.png)
+### White Spacing.
 
-**Good Indentation:**
+White spacing makes your code readable and also makes it easy to find errors in your code.
 
-![variable_not_on_line](images/goodIndentationFunction.png)
+Bad:
 
-**Bad Spacing:**
+```js
+const names = ["kazeem", "chris", "Liz"];
+const favouriteLanguage = "Python";
+```
 
-![variable_not_on_line](images/bdFunct.png)
+Good:
 
-**Good Spacing:**
+```js
+const names = ["kazeem", "chris", "Liz"];
+const favouriteLanguage = "Python";
+```
 
-![variable_not_on_line](images/goodspacing.png)
+### Line Spacing.
+
+It's important to be consistent with your line spacing when writing code. It's also makes your code easier to read.
+
+Bad:
+The line spacing between the functions are not consistent.
+
+```js
+function(num1,num2){
+ console.log(num1*num2)
+}
+function(firstName){
+console.log(firstName)
+}
+
+function(food){
+console.log(food)
+}
+```
+Good:
+The line spacing between the functions are consistent.
+
+```js
+function(num1,num2){
+ console.log(num1*num2)
+}
+
+function(firstName){
+console.log(firstName)
+}
+
+function(food){
+console.log(food)
+}
+```
 
 ## 4: **Brackets-And-Semi_Colons**
 

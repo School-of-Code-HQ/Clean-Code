@@ -1,1 +1,4 @@
-const dateofBirth = { kazeem: "07/06/2021", jordan: "08/05/2022" };
+const names = ["kazeem", "chris", "Liz"];
+for (let i = 0; i < names.length; i++) {
+  console.log(names[i]);
+}

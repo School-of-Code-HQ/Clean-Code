@@ -157,22 +157,38 @@ Parenthesis are mostly used to define function parameters but in some cases can 
 
 When a function has a parameter it makes the function reuseable.
 
-![variable_not_on_line](images/parenthesisFunction.png)
+```js
+function yourFavoriteMovie(movie) {}
+```
 
 ##### Parenthesis also define order of evaluation in calculations.
 
-![variable_not_on_line](images/Parenthesis.png)
+```js
+const answer = 4 * (2 + 3);
+```
+
 As you can see in the example above it evaluates 2+3 first (5) and then multiplies by 4 = 20.
 
 ##### Lastly, Parenthesis are required in For and While loops
 
 The example below shows how parenthesis are used in both for and while loops.
 
-For loop:
-![variable_not_on_line](images/forloop.png)
-
 While loop:
-![variable_not_on_line](images/whileloop.png)
+
+```js
+let i = 0;
+while (i < 10) {
+  i++;
+}
+```
+
+For loop:
+
+```js
+for (let i = 0; i < array.length; i++) {
+  console.log(i);
+}
+```
 
 #### Square Brackets []
 

@@ -271,7 +271,7 @@ In JavaScript you create a single-line comment with `// ` and multi-line comment
 ```js
 function printMessage() {
   //calls a function
-  var comment = document.getElementbyID("comments").value; // declares a variable
+  const comment = document.getElementbyID("comments").value; // declares a variable
   if (comment != null && comment != "") {
     //starts an if statement if there's a comment
     return console.log("What a meaningful comment"); //prints a string to the console
@@ -284,7 +284,7 @@ function printMessage() {
 ```js
 //checks to see if there's a comment. If so, returns a message.
 function printMessage() {
-  var comment = document.getElementbyID("comments").value;
+  const comment = document.getElementbyID("comments").value;
   if (comment != null && comment != "") {
     return console.log("What a meaningful comment");
   }

@@ -5,7 +5,7 @@
 ## Table of Contents
 
 1. [Introduction](#Introduction)
-2. [Naming Conventions](#1:Naming_Conventions)
+2. [Naming Conventions](#Naming_Conventions)
 3. [Indentation & Spcacing](#Indentation-And-Spacing)
 4. [Brackets & Colons](#Brackets)
 5. [Comments](#Comments)
@@ -19,7 +19,7 @@ Code Formatting is not necessary for functionality but well formatted code is ea
 
 Good code should be self-explanatory, easy to understand and easy to change or extend.
 
-## **1:Naming_Conventions**
+## **Naming_Conventions**
 
 ### WHY NAMING CONVENTIONS ARE IMPORTANT:
 

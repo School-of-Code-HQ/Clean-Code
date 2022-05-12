@@ -67,13 +67,13 @@ let shoppingList = [
 
 ### Indentation
 
-Indentation is the leading whitespace before any statement in javascript. Indentation is not so important in javascript because your code will run without good indentation but good indentation helps improve code readability.
+Indentation is the leading whitespace before any statement in javascript. Indentation is not so important in javascript because your code will run without it but good indentation helps improve code readability.
 
 Statement with the same indentation level(whitespace) should be treated as a single code block.
 
 #### Some examples that show how indentation can be used:
 
-The indented code only run if the conditoions are met. This shows the code is in a seperate code block.
+The indented code only runs if the conditoions are met. This shows the code is in a seperate code block.
 
 ```js
 let myName = "Kazeem";

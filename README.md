@@ -97,8 +97,8 @@ White spacing makes your code readable and also makes it easy to find errors in 
 Bad:
 
 ```js
-const names = ["kazeem", "chris", "Liz"];
-const favouriteLanguage = "Python";
+const names=["kazeem", "chris", "Liz"];
+const favouriteLanguage="Python";
 ```
 
 Good:

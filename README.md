@@ -5,13 +5,13 @@
 ## Table of Contents
 
 1. [Introduction](#Introduction)
-2. [Naming Conventions](#Naming_Conventions)
-3. [Indentation & Spcacing](#Indentation_And_Spacing)
+2. [Naming Conventions](#1:Naming_Conventions)
+3. [Indentation & Spcacing](#Indentation-And-Spacing)
 4. [Brackets & Colons](#Brackets)
 5. [Comments](#Comments)
 6. [Code Formatter](#Code_Formatters)
 
-## 1: **Introduction**
+## **Introduction**
 
 In this article, we will look at how to format your code and why it's important.
 
@@ -19,7 +19,7 @@ Code Formatting is not necessary for functionality but well formatted code is ea
 
 Good code should be self-explanatory, easy to understand and easy to change or extend.
 
-## 2: **Naming_Conventions**
+## **1:Naming_Conventions**
 
 ### WHY NAMING CONVENTIONS ARE IMPORTANT:
 
@@ -63,7 +63,7 @@ let shoppingList = [
 
 **[⬆ back to top](#table-of-contents)**
 
-## 3: **Indentation-And-Spacing**
+## **Indentation-And-Spacing**
 
 ### Indentation
 
@@ -145,7 +145,7 @@ console.log(food)
 }
 ```
 
-## 4: **Brackets**
+## **Brackets**
 
 There are three main types of brackets in javascript. They are parenthesis, square brackets and curly brackets. This section shows what they do and how you can use them.
 
@@ -254,7 +254,7 @@ const coachesAge = { kazeem: 12, jordan: 15 };
 
 **[⬆ back to top](#table-of-contents)**
 
-## 5: **Comments**
+## **Comments**
 
 ### How to leave comments like a pro!
 
@@ -262,7 +262,7 @@ Comments save time, help other developers navigate through your code and help yo
 
 This is especially true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 
-In JavaScript you create a single-line comment with `// ` and multi-line comments using `/* and */ `.
+In JavaScript you create a single-line comment with `// `  and multi-line comments using `/* and */ `.
 
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
@@ -293,7 +293,7 @@ function printMessage() {
 
 **[⬆ back to top](#table-of-contents)**
 
-## 6: **Code_Formatters**
+## **Code_Formatters**
 
 ### WHY WE USE FORMATTERS:
 

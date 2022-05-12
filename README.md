@@ -110,7 +110,7 @@ const favouriteLanguage = "Python";
 
 ### Line Spacing.
 
-It's important to be consistent with your line spacing when writing code. It's also makes your code easier to read.
+It's important to be consistent with your line spacing when writing code because it makes your code easier to read.
 
 Bad:
 The line spacing between the functions are not consistent.
@@ -262,7 +262,7 @@ Comments save time, help other developers navigate through your code and help yo
 
 This is especially true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 
-In JavaScript you create a single-line comment with `js //` and multi-line comments using `js /_ and _/ `.
+In JavaScript you create a single-line comment with ```js //``` and multi-line comments using ```js /* and */ ```.
 
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 

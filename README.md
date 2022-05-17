@@ -46,19 +46,13 @@ function findBooksByAuthor() {}
 **Bad:**
 
 ```js
-let someStuff = ["Black Sea", "Caribbean Sea", "North Sea", "Baltic Sea"];
+let someStuff = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
 ```
 
 **Good:**
 
 ```js
-let shoppingList = [
-  ["Banana", 3],
-  ["Apple", 4],
-  ["Orange", 5],
-  ["Peach", 6],
-  ["Pineaple", 7],
-];
+let shoppingList = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
 ```
 
 **[⬆ back to top](#table-of-contents)**

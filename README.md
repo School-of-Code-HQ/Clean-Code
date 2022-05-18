@@ -6,12 +6,12 @@
 
 1. [Introduction](#Introduction)
 2. [Naming Conventions](#Naming-Conventions)
-3. [Indentation & Spcacing](#Indentation-And-Spacing)
+3. [Indentation & Spacing](#Indentation-And-Spacing)
 4. [Brackets & Colons](#Brackets)
 5. [Comments](#Comments)
-6. [Code Formatter](#Code_Formatters)
+6. [Code Formatter](#Code-Formatters)
 
-## **Introduction**
+## Introduction
 
 In this article, we will look at how to format your code and why it's important.
 
@@ -57,7 +57,7 @@ let shoppingList = ["Bananas", "Bread", "Cheese", "Crisps", "Milk"];
 
 **[⬆ back to top](#table-of-contents)**
 
-## **Indentation-And-Spacing**
+## Indentation And Spacing
 
 ### Indentation
 
@@ -67,12 +67,12 @@ Statement with the same indentation level(whitespace) should be treated as a sin
 
 #### Some examples that show how indentation can be used:
 
-The indented code only runs if the conditoions are met. This shows the code is in a seperate code block.
+The indented code only runs if the conditions are met. This shows the code is in a separate code block.
 
 ```js
 let myName = "Kazeem";
 if (myName === "Kazeem") {
-  console.log(myName); //this is indented because it's treated as a seperate code block.
+  console.log(myName); //this is indented because it's treated as a separate code block.
 }
 myName = "Ade";
 ```
@@ -80,7 +80,7 @@ myName = "Ade";
 ```js
 const names = ["kazeem", "chris", "Liz"];
 for (let i = 0; i < names.length; i++) {
-  console.log(names[i]); //this is indented because it's treated as seperate code block.
+  console.log(names[i]); //this is indented because it's treated as separate code block.
 }
 ```
 
@@ -111,7 +111,7 @@ The line spacing between the functions are not consistent.
 
 ```js
 function(num1,num2){
- console.log(num1*num2)
+console.log(num1*num2)
 }
 function(firstName){
 console.log(firstName)
@@ -127,25 +127,25 @@ The line spacing between the functions are consistent.
 
 ```js
 function(num1,num2){
- console.log(num1*num2)
+  console.log(num1*num2)
 }
 
 function(firstName){
-console.log(firstName)
+  console.log(firstName)
 }
 
 function(food){
-console.log(food)
+  console.log(food)
 }
 ```
 
-## **Brackets**
+## Brackets
 
 There are three main types of brackets in javascript. They are parenthesis, square brackets and curly brackets. This section shows what they do and how you can use them.
 
 #### Parenthesis ()
 
-Parenthesis are mostly used to define function parameters but in some cases can also be used to define orders of evaluatin.
+Parenthesis are mostly used to define function parameters but in some cases can also be used to define orders of evaluation.
 
 ##### As you can see in the example below the parameters of the function are put in a parenthesis
 
@@ -256,7 +256,7 @@ Comments save time, help other developers navigate through your code and help yo
 
 This is especially true when you are learning, although less is more when it comes to comments, as good code should be self-documenting.
 
-In JavaScript you create a single-line comment with `// `  and multi-line comments using `/* and */ `.
+In JavaScript you create a single-line comment with `// ` and multi-line comments using `/* and */ `.
 
 #### As you can see from the examples below, comment overkill can be overwhelming and take to long to read through and understand.
 
@@ -287,7 +287,7 @@ function printMessage() {
 
 **[⬆ back to top](#table-of-contents)**
 
-## **Code_Formatters**
+## Code Formatters
 
 ### WHY WE USE FORMATTERS:
 

@@ -259,9 +259,9 @@ const scores = {
   kazeem: 12,
   jordan: 15
 };
-```
 
 const { kazeem } = scores; // makes a new variable called kazeem, with a value of 12 because the object has a property of kazeem with that value
+```
 
 **[⬆ back to top](#table-of-contents)**
 

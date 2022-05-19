@@ -310,9 +310,9 @@ function printMessage() {
 
 Remembering all the rules about code formatting can be taxing so thats where code formatters can help!
 
-Code formatters automatically format code for you depending on the preferences you set. Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written.
+Code formatters automatically format code for you depending on the preferences you set. Automatic formatting enables higher code quality, especially when you are working in teams and other people are reading the code you’ve written. Many developers maintain standards of code formatting like 2-space or 4-space indentation or using single or double quotes. This helps with both readbility and finding errors. 
 
-Many developers maintain standards of code formatting like 2-space or 4-space indentation or using single or double quotes. This helps with both readbility and finding errors. Two examples of code formatters are Prettier, which is used for.......... and ESLint, which helps find problematic patterns found in JavaScript Code. 
+Two examples of code formatters are Prettier, which is used to keep your coding style consistent and ESLint, which helps detect formatting issues and find inconsistencies in your code.
 
 
 Installation ans setup guides for Prettier and ESLint:

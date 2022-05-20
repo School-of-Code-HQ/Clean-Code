@@ -321,7 +321,7 @@ Prettier Configuration:<br>
 https://www.digitalocean.com/community/tutorials/code-formatting-with-prettier-in-visual-studio-code
 
 ESLint Configuration:<br>
-https://medium.com/dailyjs/adding-eslint-to-your-project-7bd4feca35a8
+[[https://medium.com/dailyjs/adding-eslint-to-your-project-7bd4feca35a8](https://eslint.org/docs/user-guide/getting-started)](https://eslint.org/docs/user-guide/getting-started)
 
 Using both of these tools together can be a very effective way to maintain high quality code but may cause conflict. The following guide will help you successfully intergrate both tools succesfully.
 https://prettier.io/docs/en/integrating-with-linters.html
